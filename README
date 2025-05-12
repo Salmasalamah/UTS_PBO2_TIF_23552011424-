@@ -1,0 +1,30 @@
+UTS Pemrograman Berorientasi Objek 2
+
+Nama: Salma Salamh
+NIM: 23552011424
+Kelas: TIF RP 23 CNS A
+Mata Kuliah: PBO 2
+Dosen: Muhammad Ikhwan Fathulloh
+
+Studi Kasus
+Saya mendapat studi kasus nomor 4, yaitu Kasir Bank.
+Aplikasi ini dibuat menggunakan Java di NetBeans dan berjalan di terminal.
+Fungsinya adalah untuk melakukan transaksi seperti buka rekening, setor, tarik, dan transfer.
+
+Penjelasan OOP
+Inheritance
+Inheritance memungkinkan class baru mewarisi atribut dan metode dari class lain. Di sini, class Rekening berfungsi sebagai superclass, yang kemudian diwarisi oleh class Tabungan dan Giro.
+
+Encapsulation
+Konsep ini bertujuan untuk menyembunyikan data penting dalam class dan hanya memberikan akses melalui metode getter dan setter. Dalam aplikasi ini, saldo rekening disimpan secara private, dan hanya bisa diakses atau diubah menggunakan metode yang telah disediakan.
+
+Polymorphism
+Polymorphism memungkinkan penggunaan metode yang sama pada class berbeda, dengan implementasi yang berbeda. Misalnya, metode hitungBunga di-override pada class Tabungan dan Giro untuk menghitung bunga dengan cara yang sesuai dengan jenis rekening masing-masing.
+
+Abstract
+Class abstract adalah class yang tidak bisa diinstansiasi secara langsung. Class Rekening di sini didefinisikan sebagai abstract, sehingga hanya digunakan sebagai dasar untuk class Tabungan dan Giro yang mengimplementasikan fitur-fitur yang spesifik.
+
+Demo Proyek
+GitHub: [https://github.com/Salmasalamah/UTS_PBO2_TIF_23552011424-/new/main]
+
+YouTube: https://youtu.be/QzWDoMgXogA?si=bLVXZfBX66D5-_WK
